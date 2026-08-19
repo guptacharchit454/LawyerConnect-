@@ -1,6 +1,6 @@
-# Legal Connect (LC Connect) Monorepo
+# LawyerConnect Platform
 
-Welcome to the Legal Connect (LC Connect) workspace. This project is structured as a clean monorepo with distinct modules for the frontend and backend applications.
+Welcome to the LawyerConnect. This project is structured as a clean monorepo with distinct modules for the backend applications.
 
 ## Directory Structure
 
@@ -10,11 +10,8 @@ LC Connect/
 │   ├── src/          # Java source code and configuration properties
 │   ├── pom.xml       # Maven build configuration
 │   ├── schema.sql    # Database schema script
-│   └── ...           
-└── frontend/         # React Client Application
-    ├── src/          # TypeScript React application
-    ├── package.json  # NPM project configuration
-    └── ...           
+  └── ...           
+
 ```
 
 ---
@@ -48,26 +45,3 @@ The backend is an enterprise-level Spring Boot application configured with REST 
 
 ---
 
-## 2. Frontend Application (`frontend/`)
-
-The frontend is a modern React web application built with TypeScript and Tailwind CSS, leveraging Supabase database/auth integration.
-
-### Tech Stack
-- **Framework**: React 18, TypeScript, Vite
-- **Styling**: Tailwind CSS
-- **Database/Auth**: Supabase PostgreSQL client and Auth
-
-### Getting Started (Frontend)
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-2. Install npm dependencies:
-   ```bash
-   npm install
-   ```
-3. Create your `.env` file using the keys from `.env.example`.
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
