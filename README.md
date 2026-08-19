@@ -5,7 +5,7 @@ Welcome to the LawyerConnect. This project is structured as a clean monorepo wit
 ## Directory Structure
 
 ```
-LC Connect/
+LawyerConnect/
 ├── backend/          # Enterprise Spring Boot Service
 │   ├── src/          # Java source code and configuration properties
 │   ├── pom.xml       # Maven build configuration
